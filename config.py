@@ -23,16 +23,16 @@ PAPER_TRADING = True
 ALLOWED_MARKET_TYPES = None
 
 # -- Signal thresholds -----------------------------------------------------------
-MIN_EDGE = 0.10            # minimum |fair_prob - clob_mid| to trigger a bet
-MIN_DEPTH_SHARES = 100     # minimum shares of liquidity on the side we're buying
+MIN_EDGE = 0.10            # minimum |fair_prob - clob_mid| to trigger a bet — 個人智慧財產,參數不提供 (placeholder)
+MIN_DEPTH_SHARES = 100     # minimum shares of liquidity on the side we're buying — 個人智慧財產,參數不提供 (placeholder)
 
 # -- Position sizing -------------------------------------------------------------
-BANKROLL = 1000.0          # total USDC available for betting
-KELLY_FRACTION = 0.10      # fraction of full Kelly to use
-MAX_POSITION_USD = 10.0    # hard cap per bet regardless of Kelly output
+BANKROLL = 1000.0          # total USDC available for betting — 個人智慧財產,參數不提供 (placeholder)
+KELLY_FRACTION = 0.10      # fraction of full Kelly to use — 個人智慧財產,參數不提供 (placeholder)
+MAX_POSITION_USD = 10.0    # hard cap per bet regardless of Kelly output — 個人智慧財產,參數不提供 (placeholder)
 
 # -- Order parameters ------------------------------------------------------------
-ORDER_EXPIRY_MINUTES = 5   # GTC orders cancelled after this many minutes
+ORDER_EXPIRY_MINUTES = 5   # GTC orders cancelled after this many minutes — 個人智慧財產,參數不提供 (placeholder)
 
 # -- Bot loop --------------------------------------------------------------------
-POLL_INTERVAL_SEC = 30     # seconds between market scans
+POLL_INTERVAL_SEC = 30     # seconds between market scans — 個人智慧財產,參數不提供 (placeholder)
